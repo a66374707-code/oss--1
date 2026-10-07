@@ -30,6 +30,18 @@ int main(){
             f = f / 3;
             r = r / 3;
          }
+          if (b == d)
+      {
+            printf("%d/%d\n", a + c, b);
+      }
+      else if (n >= 1)
+         printf("%d + %d/%d\n", n, r , f);
+      else if(n ==0 )
+      {
+         printf("%d/%d\n", r, f);
+      }
+      
+   }
 
-  
+   return 0;
 }
