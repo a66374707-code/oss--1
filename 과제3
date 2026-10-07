@@ -12,6 +12,16 @@ int main(){
 
       }
 
+            f = d * b;
+        g = a * d;
+        v = c * b;
+        r = g + v;
+
+        if (r > f) {
+            r -= f;
+            n++;
+        }
+
 
   
 }
